@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>devmaster-ejemplo10</title>
+    <style>
+
+        .caja{
+            width: 200px;
+            height: 200px;
+            background-image: linear-gradient(45deg,rgb(188, 79, 115), #29ABE2);
+
+            animation: animarCaja;
+            animation-duration: 3s;
+
+            
+        }
+
+        /* Keyframes ツ*/
+        /* 1era forma */
+        @keyframes animarCaja{
+            0%{
+                height:200px;
+            }
+
+            100%{
+                height: 400px;
+            }
+        }
+
+        /* 2da forma */
+        /* @Keyframes animarCaja { 
+            from{
+
+            }
+
+            to{
+
+            }
+        }*/
+
+    
+    
+
+    </style>
+</head>
+<body>
+    <div class="caja"></div>
+</body>
+</html>
